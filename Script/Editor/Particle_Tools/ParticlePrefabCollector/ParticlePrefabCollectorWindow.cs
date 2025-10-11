@@ -563,7 +563,11 @@ namespace Game.Editor.ParticlePrefabCollector
             ParticlePrefabPreviewSceneHelper.SpawnPrefabs(prefabs);
             // 新增：选中所有实例化对象
             var spawned = ParticlePrefabPreviewSceneHelper.GetSpawnedPrefabs();
+#if UNITY_2019_1_OR_NEWER            
             if (spawned is { Count: > 0 })
+#else
+            if (spawned.Count > 0)
+#endif
             {
                 Selection.objects = spawned.Where(go => go)
                     .Cast<UnityEngine.Object>()
@@ -632,7 +636,7 @@ namespace Game.Editor.ParticlePrefabCollector
             else _instance._previewPage--;
             _instance.ShowPreviewScene();
         }
-
+#if UNITY_2019_1_OR_NEWER
         public static void GetPageInfo(out int currentPage, out int maxPage, out int startIdx, out int endIdx,
             out int total)
         {
@@ -650,7 +654,25 @@ namespace Game.Editor.ParticlePrefabCollector
             startIdx = total == 0 ? 0 : currentPage * perPage + 1;
             endIdx = Mathf.Min((currentPage + 1) * perPage, total);
         }
-
+#else
+        public static int[] GetPageInfo_Old()
+        {
+            int currentPage = 0;
+            int maxPage = 0;
+            int startIdx = 0;
+            int endIdx = 0;
+            int total = 0;
+            if (_instance == null || !_instance._isPreviewing) return null;
+            var all = _instance._previewTargets ?? _instance._previewSelected.ToList();
+            total = all.Count;
+            int perPage = PreviewPageSize;
+            maxPage = Mathf.Max(0, Mathf.CeilToInt(total / (float)perPage) - 1);
+            currentPage = Mathf.Clamp(_instance._previewPage, 0, maxPage);
+            startIdx = total == 0 ? 0 : currentPage * perPage + 1;
+            endIdx = Mathf.Min((currentPage + 1) * perPage, total);
+            return new int[5] { currentPage, maxPage, startIdx, endIdx, total };
+        }
+#endif
         private List<Entry> GetFilteredEntriesCached()
         {
             if (_filterCacheDirty)

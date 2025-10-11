@@ -42,8 +42,12 @@ namespace Game.Editor.ParticlePrefabCollector
                             ParticlePrefabPreviewSceneHelper.PersistSpacingToConfigAndRelayout(inputSpacing);
                         }
                     }
-
+#if UNITY_2019_1_OR_NEWER
                     EditorGUILayout.Space(6);
+#else
+                    EditorGUILayout.Space();
+                    EditorGUILayout.Space();
+#endif
                     // Layout plane toggle (persisted)
                     bool newVertical = EditorGUILayout.ToggleLeft("垂直排列（XY平面）",
                         ParticlePrefabPreviewSceneHelper.VerticalLayout);
@@ -52,7 +56,12 @@ namespace Game.Editor.ParticlePrefabCollector
                         ParticlePrefabPreviewSceneHelper.PersistVerticalLayoutToConfigAndRelayout(newVertical);
                     }
 
+#if UNITY_2019_1_OR_NEWER
                     EditorGUILayout.Space(6);
+#else
+                    EditorGUILayout.Space();
+                    EditorGUILayout.Space();
+#endif
                     // Loop all particles toggle (persisted)
                     bool newLoopAll =
                         EditorGUILayout.ToggleLeft("全部循环播放", ParticlePrefabPreviewSceneHelper.LoopAll);
@@ -64,7 +73,12 @@ namespace Game.Editor.ParticlePrefabCollector
                         SceneView.RepaintAll();
                     }
 
+#if UNITY_2019_1_OR_NEWER
                     EditorGUILayout.Space(6);
+#else
+                    EditorGUILayout.Space();
+                    EditorGUILayout.Space();
+#endif
                     // Selection Outline toggle (reflection-based, not persisted)
                     bool outlineAvailable = EnsureSelectionOutlineProperty();
                     if (outlineAvailable)
@@ -88,7 +102,12 @@ namespace Game.Editor.ParticlePrefabCollector
                     EditorGUILayout.HelpBox(
                         "该开关不会保存到配置，且某些版本的Unity可能不支持。如需恢复，请在Scene视图的Gizmos菜单中勾选/取消 'Selection Outline'。",
                         MessageType.Info);
+#if UNITY_2019_1_OR_NEWER
                     EditorGUILayout.Space(4);
+#else
+                    EditorGUILayout.Space();
+                    EditorGUILayout.Space();
+#endif
                     var newBoundary =
                         EditorGUILayout.ToggleLeft("显示间隔边框", ParticlePrefabPreviewSceneHelper.ShowBoundaries);
                     var newLabel =
@@ -102,7 +121,12 @@ namespace Game.Editor.ParticlePrefabCollector
                         SceneView.RepaintAll();
                     }
 
+#if UNITY_2019_1_OR_NEWER
                     EditorGUILayout.Space(10);
+#else
+                    EditorGUILayout.Space();
+                    EditorGUILayout.Space();
+#endif
                     // Play button below all toggles
                     if (GUILayout.Button("一键播放", GUILayout.Height(28)))
                     {
@@ -119,8 +143,17 @@ namespace Game.Editor.ParticlePrefabCollector
                 using (new EditorGUILayout.HorizontalScope(_bottomBarStyle, GUILayout.Height(42)))
                 {
                     // Query page info first
+#if UNITY_2019_1_OR_NEWER
                     ParticlePrefabCollectorWindow.GetPageInfo(out var cur, out var max, out var startIdx,
                         out var endIdx, out var total);
+#else
+                    var _v = ParticlePrefabCollectorWindow.GetPageInfo_Old();
+                    int cur = _v[0];
+                    int max = _v[1];
+                    int startIdx = _v[2];
+                    int endIdx = _v[3];
+                    int total = _v[4];
+#endif
 
                     // Show paging buttons only when more than one page (max > 0)
                     if (max > 0)
@@ -170,6 +203,7 @@ namespace Game.Editor.ParticlePrefabCollector
 
         private void EnsureStyles()
         {
+#if UNITY_2019_1_OR_NEWER
             _panelStyle ??= new GUIStyle(EditorStyles.helpBox)
             {
                 padding = new RectOffset(12, 12, 10, 10),
@@ -181,6 +215,24 @@ namespace Game.Editor.ParticlePrefabCollector
                 padding = new RectOffset(10, 10, 6, 6), // more top/bottom padding to center content
                 margin = new RectOffset(0, 0, 0, 0)
             };
+#else
+            if (_panelStyle == null)
+            {
+                _panelStyle = new GUIStyle(EditorStyles.helpBox)
+                {
+                    padding = new RectOffset(12, 12, 10, 10),
+                    margin = new RectOffset(6, 6, 0, 6)
+                };
+            }
+            if (_bottomBarStyle == null)
+            {
+                _bottomBarStyle = new GUIStyle(EditorStyles.helpBox)
+                {
+                    padding = new RectOffset(10, 10, 6, 6), // more top/bottom padding to center content
+                    margin = new RectOffset(0, 0, 0, 0)
+                };
+            }
+#endif
         }
 
         // Reflection helpers for Selection Outline (cached)
@@ -209,7 +261,11 @@ namespace Game.Editor.ParticlePrefabCollector
 
             try
             {
+#if UNITY_2019_1_OR_NEWER
                 return (bool)_showSelectionOutlineProp.GetValue(null);
+#else
+                return (bool)_showSelectionOutlineProp.GetValue(null, null);
+#endif
             }
             catch
             {

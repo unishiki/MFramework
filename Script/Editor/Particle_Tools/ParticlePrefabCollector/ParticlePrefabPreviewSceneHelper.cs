@@ -15,10 +15,10 @@ namespace Game.Editor.ParticlePrefabCollector
     {
         private static Scene _previewScene;
 
-        private static readonly List<GameObject> SpawnedPrefabs = new();
+        private static readonly List<GameObject> SpawnedPrefabs = new List<GameObject>();
 
         // Track ParticleSystems that were non-looping at spawn time
-        private static readonly List<ParticleSystem> InitialNonLoopParticles = new();
+        private static readonly List<ParticleSystem> InitialNonLoopParticles = new List<ParticleSystem>();
         private static bool _sceneGuiRegistered;
         private static GUIStyle _labelStyle;
         private static Texture2D _labelBackgroundTexture;
@@ -32,8 +32,13 @@ namespace Game.Editor.ParticlePrefabCollector
 
         private const string ConfigAssetPath =
             "Assets/MFramework/Script/Editor/Particle_Tools/ParticlePrefabCollector/ParticlePrefabPreviewConfig.asset";
+#if UNITY_2019_1_OR_NEWER
         public static bool ShowBoundaries { get; set; } = true;
         public static bool ShowLabels { get; set; } = true;
+#else
+        public static bool ShowBoundaries { get; set; }
+        public static bool ShowLabels { get; set; }
+#endif
         public static bool LoopAll { get; set; }
         public static bool VerticalLayout { get; private set; } // false -> XZ plane (default), true -> XY plane
 
@@ -56,7 +61,11 @@ namespace Game.Editor.ParticlePrefabCollector
             if (_previewScene.IsValid() && _previewScene.isLoaded)
             {
                 EditorSceneManager.CloseScene(_previewScene, true);
+#if UNITY_2019_1_OR_NEWER
                 _previewScene = default;
+#else
+                _previewScene = new Scene();
+#endif
             }
 
             SpawnedPrefabs.Clear();
@@ -357,7 +366,11 @@ namespace Game.Editor.ParticlePrefabCollector
 
             if (flushImmediately)
             {
+#if UNITY_2019_1_OR_NEWER
                 AssetDatabase.SaveAssetIfDirty(_configObj);
+#else
+                AssetDatabase.SaveAssets();
+#endif
                 return;
             }
 
@@ -374,7 +387,11 @@ namespace Game.Editor.ParticlePrefabCollector
             _saveScheduled = false;
             if (_configObj)
             {
+#if UNITY_2019_1_OR_NEWER
                 AssetDatabase.SaveAssetIfDirty(_configObj);
+#else
+                AssetDatabase.SaveAssets();
+#endif
             }
         }
 
@@ -434,8 +451,11 @@ namespace Game.Editor.ParticlePrefabCollector
             {
                 return;
             }
-
+#if UNITY_2019_1_OR_NEWER
             SceneView.duringSceneGui += OnSceneGui;
+#else
+            SceneView.onSceneGUIDelegate += OnSceneGui;
+#endif
             _sceneGuiRegistered = true;
         }
 
@@ -445,8 +465,11 @@ namespace Game.Editor.ParticlePrefabCollector
             {
                 return;
             }
-
+#if UNITY_2019_1_OR_NEWER
             SceneView.duringSceneGui -= OnSceneGui;
+#else
+            SceneView.onSceneGUIDelegate -= OnSceneGui;
+#endif
             _sceneGuiRegistered = false;
         }
 
