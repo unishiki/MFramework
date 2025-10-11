@@ -1,0 +1,1063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650e391887a3e9c4f8e36f18b65aa781, type: 3}
+  m_Name: ParticlePrefabScanResult
+  m_EditorClassIdentifier: 
+  prefabPaths:
+  - Assets/MFramework/Script/Test/Epic Toon FX/Demo/ParticleEffectsShowcase/Prefabs/SamplePE01Prefab.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Demo/ParticleEffectsShowcase/Prefabs/SamplePE02Prefab.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Demo/ParticleEffectsShowcase/Prefabs/SamplePE03Prefab.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Aim_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_BoostAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_BoostDefense_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_BoostSpeed_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Buff_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Buff_01_Loop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Buff_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Buff_02_Loop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Buff_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Charge_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Recovery_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Abilities/2D_Sing_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_AirExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_AirExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_AirExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_AirExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_GroundExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_GroundExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_GroundExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Explosions/2D_GroundExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_BiteAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_DaggerAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Dead_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Dead_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Dead_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Dead_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Guard_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Guard_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Hit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Hit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Hit_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_PunchAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_Spawn_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Fight/2D_SwordAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_DarkHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_DarkMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_DarkMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_EarthMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_EarthMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireHit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireMagic_03_A.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireMagic_03_B.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireMagic_03_C.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_FireMagic_03_D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_LightHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_LightMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_MagicCircle_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_MagicCircle_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_ThunderHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_ThunderMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_ThunderMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_WaterHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_WaterMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Magics/2D_WaterMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_DashPuff_Left.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_DashPuff_Right.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_ItemDrop_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_ItemDrop_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_PickItem_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_PickItem_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_PickItem_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_PickItem_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_PickItem_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_SmokePuff_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Star_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Status_Charm_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Status_Curse_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Status_Curse_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Status_Poison_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Status_Poison_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Misc/2D_Status_Sleep_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Bat_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Bubble_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Fire_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Firework_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_FlyingEmber_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Fog_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Rain_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Savepoint_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Smoke_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/2D/Props/2D_Snow_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Aura_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Aura_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Buff_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Buff_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Buff_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Charge_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Recovery_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Recovery_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Recovery_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Recovery_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_Sing_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Abilities/3D_SmokeBomb_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_AirExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_AirExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_AirExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_AirExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_AirExplode_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_GroundExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_GroundExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_GroundExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_GroundExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Explosions/3D_GroundExplode_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_CriticalHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Dead_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Dead_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_GroundAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_GroundAttack_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Guard_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Hit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Hit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Hit_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Hit_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Hit_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Hit_06.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Fight/3D_Spawn_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_DarkHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_DarkMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_EarthMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_EarthMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_FireHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_FireHit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_FireMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_FireMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_FireMagic_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_FireMagic_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_IceHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_LightHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_LightMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_MagicCircle_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_MagicCircle_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_MagicCircle_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_ThunderHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_ThunderMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_ThunderMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_WaterHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_WaterMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_WaterMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_WaterMagic_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Magics/3D_WindMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_Force_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_Force_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_ItemDrop_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_ItemDrop_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_PickItem_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_PickItem_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_PickItem_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_PickItem_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_PickItem_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/3D_Star_01.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/\u661F\u661F\u7206\u70B8\u7279\u6548.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Misc/\u742A\u742A\u65BD\u6CD5\u7279\u6548.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Fire_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Fire_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Firefly_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Firework_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_MagicLight_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Rain_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Rain_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Rain_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Savepoint_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Desktop/Prefabs/3D/Props/3D_Snow_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Aim_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_BoostAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_BoostDefense_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_BoostSpeed_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Buff_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Buff_01_Loop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Buff_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Buff_02_Loop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Buff_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Charge_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Recovery_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Abilities/M_2D_Sing_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_AirExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_AirExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_AirExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_AirExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_GroundExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_GroundExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_GroundExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Explosions/M_2D_GroundExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_BiteAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_DaggerAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Dead_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Dead_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Dead_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Dead_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Guard_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Guard_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Hit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Hit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Hit_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_PunchAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_Spawn_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Fight/M_2D_SwordAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_DarkHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_DarkMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_DarkMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_EarthMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_EarthMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireHit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireMagic_03_A.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireMagic_03_B.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireMagic_03_C.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_FireMagic_03_D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_LightHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_LightMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_MagicCircle_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_MagicCircle_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_ThunderHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_ThunderMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_ThunderMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_WaterHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_WaterMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Magics/M_2D_WaterMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_DashPuff_Left.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_DashPuff_Right.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_ItemDrop_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_ItemDrop_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_PickItem_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_PickItem_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_PickItem_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_PickItem_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_PickItem_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_SmokePuff_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Star_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Status_Charm_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Status_Curse_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Status_Curse_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Status_Poison_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Status_Poison_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Misc/M_2D_Status_Sleep_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Bat_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Bubble_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Fire_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Firework_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_FlyingEmber_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Fog_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Rain_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Savepoint_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Smoke_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/2D/Props/M_2D_Snow_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Aura_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Aura_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Buff_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Buff_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Buff_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Charge_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Recovery_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Recovery_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Recovery_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Recovery_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_Sing_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Abilities/M_3D_SmokeBomb_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_AirExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_AirExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_AirExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_AirExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_AirExplode_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_GroundExplode_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_GroundExplode_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_GroundExplode_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_GroundExplode_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Explosions/M_3D_GroundExplode_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_CriticalHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Dead_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Dead_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_GroundAttack_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_GroundAttack_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Guard_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Hit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Hit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Hit_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Hit_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Hit_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Hit_06.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Fight/M_3D_Spawn_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_DarkHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_DarkMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_EarthMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_EarthMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_FireHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_FireHit_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_FireMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_FireMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_FireMagic_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_FireMagic_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_IceHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_LightHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_LightMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_MagicCircle_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_MagicCircle_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_MagicCircle_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_ThunderHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_ThunderMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_ThunderMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_WaterHit_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_WaterMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_WaterMagic_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_WaterMagic_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Magics/M_3D_WindMagic_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_Force_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_Force_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_ItemDrop_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_ItemDrop_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_PickItem_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_PickItem_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_PickItem_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_PickItem_04.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_PickItem_05.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Misc/M_3D_Star_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Fire_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Fire_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Firefly_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Firework_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_MagicLight_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Rain_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Rain_02.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Rain_03.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Savepoint_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/FX Quest/_Mobile/Prefabs/3D/Props/M_3D_Snow_01.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Air/AuraActivateAir.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Air/AuraAir.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Air/AuraDisableAir.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Air/GroundAir.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Air/SpinningAir.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Arcane/AuraActivateArcane.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Arcane/AuraArcane.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Arcane/AuraDisableArcane.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Arcane/GroundArcane.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Arcane/SpinningArcane.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Earth/AuraActivateEarth.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Earth/AuraDisableEarth.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Earth/AuraEarth.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Earth/GroundEarth.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Earth/GroundEarth2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Earth/SpinningEarth.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Fire/AuraActivateFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Fire/AuraDisableFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Fire/AuraFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Fire/GroundFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Fire/SpinningFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Fire/SpinningFire2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Frost/AuraActivateFrost.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Frost/AuraDisableFrost.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Frost/AuraFrost.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Frost/GroundFrost.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Frost/SpinningFrost.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Life/AuraActivateLife.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Life/AuraDisableLife.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Life/AuraLife.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Life/GroundLife.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Life/SpinningLife.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Light/AuraActivateLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Light/AuraDisableLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Light/AuraLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Light/GroundLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Light/SpinningLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Lightning/AuraActivateLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Lightning/AuraDisableLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Lightning/AuraLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Lightning/GroundLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Lightning/SpinningLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Modular/AuraActivateModular.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Modular/AuraDisableModular.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Modular/AuraModular.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Modular/GroundModular.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Modular/GroundModular2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Modular/SpinningModular.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Shadow/AuraActivateShadow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Shadow/AuraDisableShadow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Shadow/AuraShadow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Shadow/GroundShadow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Shadow/SpinningShadow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Water/AuraActivateWater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Water/AuraDisableWater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Water/AuraWater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Water/GroundWater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicAuras/Prefabs/Water/SpinningWater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/ElegantSparks
+    1.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/ElegantSparks.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/FastBigPop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/GlowExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/GoldLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/GreenLightning.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/HollowSmoke.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/MezmerisingDust.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/SmoothPop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/SnowSmoke.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/SparklyFade.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/SpikyConfetti.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/SpikySparks.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/TwirlyPlasmaCloud.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicModular/Prefabs/ProjectileTrails/UnstableCharge.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Air/AirImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Air/AirImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Air/AirProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Air/AirProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Arcane/ArcaneImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Arcane/ArcaneImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Arcane/ArcaneProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Arcane/ArcaneProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Earth/EarthImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Earth/EarthImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Earth/EarthProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Earth/EarthProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Fire/FireImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Fire/FireImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Fire/FireProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Fire/FireProjectile2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Fire/FireProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Frost/FrostImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Frost/FrostImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Frost/FrostProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Frost/FrostProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Life/LifeImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Life/LifeImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Life/LifeProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Life/LifeProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Light/LightImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Light/LightImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Light/LightProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Light/LightProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/LightningImpactNew.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/LightningImpactSmallNew.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/LightningProjectileNew.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/LightningProjectileSmallNew.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/Old/LightningImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/Old/LightningImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/Old/LightningProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Lightning/Old/LightningProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Shadow/ShadowImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Shadow/ShadowImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Shadow/ShadowProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Shadow/ShadowProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Water/WaterImpact.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Water/WaterImpactSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Water/WaterProjectile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicProjectiles/Prefabs/Water/WaterProjectileSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/AirDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/ArcaneDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/EarthDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/FireDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/FrostDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/LifeDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/LightDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/LightningDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/ShadowDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Domes/WaterDome.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/AirShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/ArcaneShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/EarthShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/FireShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/FrostShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/LifeShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/LightningShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/LightShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/ShadowShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/SmoothShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/SmoothShield2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicShields/Prefabs/Shields/WaterShield.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/AirSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/ArcaneSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/EarthSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/FireSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/FrostSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/LifeSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/LightningSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/LightSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/ShadowSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/MagicProjectiles/MagicSprays/Prefabs/WaterSpray.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Cardboard/BloodSplatDirectionalCardboard.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Cardboard/BloodSplatWideCardboard.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodDripping.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodPoolGrowing.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodShowerLoop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatDirectional.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatWide.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodDripping.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodPoolGrowing.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodShowerLoop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodSplatCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodSplatDirectional.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodSplatWide.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodDripping.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodPoolGrowing.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodShowerLoop.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodSplatCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodSplatDirectional.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodSplatWide.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyBodySlam.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyFightAction.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyFightAction2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyPunchExtreme.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyPunchHeavy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyPunchLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony/CartoonyPunchMedium.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit/RoundHitBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit/RoundHitGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit/RoundHitRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit/RoundHitYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftBodySlam.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftFightAction.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftFightAction2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftPunchExtreme.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftPunchHeavy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftPunchLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftPunchMedium.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/Soft/\u7B28\u7B28\u65BD\u6CD5\u7279\u6548.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Brawling/StunnedCirclingStars.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/BalloonPopExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/CloudExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/CloudExplosionGreenSkull.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/FlashBomb.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/FlashBomb2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/MetalHit.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/SparkExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/StarBurst.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/StunExplosion.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/- Misc/StunExplosion2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/FireballExplosion/ExplosionFireballBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/FireballExplosion/ExplosionFireballFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/FireballExplosion/ExplosionFireballGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/FireballExplosion/ExplosionFireballPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/FrostExplosion/FrostExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion/LightningExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion/LightningExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion/LightningExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion/LightningExplosionYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion/ExplosionNovaSmallBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion/ExplosionNovaSmallFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion/ExplosionNovaSmallGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion/ExplosionNovaSmallPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SmallExplosion/SmallExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SmallExplosion/SmallExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SmallExplosion/SmallExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SmallExplosion/SmallExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion/SoulExplosionCrimson.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion/SoulExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion/SoulExplosionOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion/SoulExplosionPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/TallExplosion/TallExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/TallExplosion/TallExplosionFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/TallExplosion/TallExplosionGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Explosions/TallExplosion/TallExplosionPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Cartoon/FlamethrowerCartoonyBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Cartoon/FlamethrowerCartoonyFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Cartoon/FlamethrowerCartoonyGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Cartoon/FlamethrowerCartoonyPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive/FlamethrowerAdditiveBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive/FlamethrowerAdditiveGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive/FlamethrowerAdditivePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive/FlamethrowerAdditiveRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Alpha
+    Blend/FlamethrowerAlphaBlendBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Alpha
+    Blend/FlamethrowerAlphaBlendGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Alpha
+    Blend/FlamethrowerAlphaBlendPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Alpha
+    Blend/FlamethrowerAlphaBlendRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Aura/MagicAuraBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Aura/MagicAuraGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Aura/MagicAuraYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Charge/MagicChargeBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Charge/MagicChargeGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Charge/MagicChargeYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Field/MagicFieldBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Field/MagicFieldGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Field/MagicFieldWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Field/MagicFieldYellow.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Field/\u6C60\u5858\u6F29\u6DA1.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Nova/MagicNovaBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Nova/MagicNovaGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Nova/MagicNovaYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/PillarBlast/MagicPillarBlastBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/PillarBlast/MagicPillarBlastGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/PillarBlast/MagicPillarBlastYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Shield/ShieldBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Shield/ShieldGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Shield/ShieldPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Shield/ShieldYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Sphere/MagicSphereBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Sphere/MagicSphereGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Magic/Sphere/MagicSphereYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletFatBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletFatFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletFatGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletFatPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Fireball/FireballMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Fireball/FireballMissileFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Fireball/FireballMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Fireball/FireballMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Frost/FrostMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissileFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissileRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Lightning/LightningMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Lightning/LightningMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Lightning/LightningMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Lightning/LightningMissileYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/MagicSoft/MagicMissileSoftBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/MagicSoft/MagicMissileSoftFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/MagicSoft/MagicMissileSoftGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/MagicSoft/MagicMissileSoftPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Mystic/MysticMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Mystic/MysticMissileOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Mystic/MysticMissilePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Mystic/MysticMissileWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaMissile/NovaMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaMissile/NovaMissileFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaMissile/NovaMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaMissile/NovaMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaSmall/NovaMissileSmallBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaSmall/NovaMissileSmallFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaSmall/NovaMissileSmallGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/NovaSmall/NovaMissileSmallPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Nuke/NukeMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Nuke/NukeMissileFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Nuke/NukeMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Nuke/NukeMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissileBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissileFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissilePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Soul/SoulMissileCrimson.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Soul/SoulMissileGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Soul/SoulMissileOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Missiles/Soul/SoulMissilePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/- Misc/GunFire/GunFireBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/- Misc/GunFire/GunFireGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/- Misc/GunFire/GunFirePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/- Misc/GunFire/GunFireYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaMuzzle/EnergyNovaMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaMuzzle/EnergyNovaMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaMuzzle/EnergyNovaMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaMuzzle/EnergyNovaMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle/EnergyNovaMuzzleSmallBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle/EnergyNovaMuzzleSmallFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle/EnergyNovaMuzzleSmallGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle/EnergyNovaMuzzleSmallPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/FireballMuzzle/MuzzleFireballBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/FireballMuzzle/MuzzleFireballFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/FireballMuzzle/MuzzleFireballGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/FireballMuzzle/MuzzleFireballPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/FrostMuzzle/FrostMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle/LightningMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle/LightningMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle/LightningMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle/LightningMuzzleYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicSoftMuzzle/MagicSoftMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicSoftMuzzle/MagicSoftMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicSoftMuzzle/MagicSoftMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicSoftMuzzle/MagicSoftMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MysticMuzzle/MysticMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MysticMuzzle/MysticMuzzleOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MysticMuzzle/MysticMuzzlePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/MysticMuzzle/MysticMuzzleWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/NukeMuzzle/NukeMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/NukeMuzzle/NukeMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/NukeMuzzle/NukeMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/NukeMuzzle/NukeMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzlePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/SoulMuzzle/SoulMuzzleCrimson.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/SoulMuzzle/SoulMuzzleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/SoulMuzzle/SoulMuzzleOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Muzzleflash/SoulMuzzle/SoulMuzzlePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Nova/NovaBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Nova/NovaFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Nova/NovaGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Nova/NovaPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitCriticalLegacy/SwordHitBlueCriticalLegacy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitCriticalLegacy/SwordHitRedCriticalLegacy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitCriticalLegacy/SwordHitYellowCriticalLegacy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitLegacy/SwordHitBlueLegacy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitLegacy/SwordHitRedLegacy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitLegacy/SwordHitYellowLegacy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/MagicSwordHit/MagicSwordHitBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/MagicSwordHit/MagicSwordHitGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/MagicSwordHit/MagicSwordHitRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/MagicSwordHit/MagicSwordHitYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHit/SwordHitBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHit/SwordHitGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHit/SwordHitRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHit/SwordHitYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHitCritical/SwordHitBlueCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHitCritical/SwordHitGreenCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHitCritical/SwordHitRedCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordHitCritical/SwordHitYellowCritical.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSlash/SwordSlashBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSlash/SwordSlashGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSlash/SwordSlashRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSlash/SwordSlashYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSpin/SwordSpinBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSpin/SwordSpinGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSpin/SwordSpinRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Sword/SwordSpin/SwordSpinYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Text/KaPow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Text/Pow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Combat/Text/Zap.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastGreenYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastOrangeGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastOrangePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastRainbow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerGreenYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerOrangeGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerOrangePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerRainbow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoof.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoofSoft.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Dust/DustMotesCalm.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Dust/DustMotesLively.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/CandleLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Cartoon/CartoonFireBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Cartoon/CartoonFireGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Cartoon/CartoonFirePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Cartoon/CartoonFireRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Additive/SoftFireAdditiveBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Additive/SoftFireAdditiveGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Additive/SoftFireAdditivePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Additive/SoftFireAdditiveRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Additive/SoftFireAdditiveYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Alpha
+    Blend/SoftFireABBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Alpha
+    Blend/SoftFireABGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Alpha
+    Blend/SoftFireABPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Alpha
+    Blend/SoftFireABRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/Soft/Alpha
+    Blend/SoftFireABRedSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/TallFire/TallBlueFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/TallFire/TallGreenFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/TallFire/TallPurpleFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fire/TallFire/TallRedFire.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fireflies/FireFliesBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fireflies/FireFliesGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fireflies/FireFliesPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fireflies/FireFliesRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fireflies/FireFliesYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkBlueCluster.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkGreenCluster.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkPurpleCluster.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkRedCluster.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Firework/FireworkYellowCluster.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/Black/FogCalm.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/Black/FogHeavy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/Black/FogLively.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/Grey/FogCalm.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/Grey/FogHeavy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/Grey/FogLively.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/White/FogCalm.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/White/FogHeavy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Fog/White/FogLively.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u672F/LightningOrbSharp.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u672F/LightningStrikePinkSharp.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u672F/LightningStrikeSharp.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u672F/LightningStrikeSharpTall.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u7403/LightningBlast.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u7403/LightningBlastPink.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u7403/LightningOrb.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u7403/LightningStrike.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u7403/LightningStrikePink.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Lightning/\u95EA\u7535\u7403/LightningStrikeTall.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Liquid/AcidBoiling.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Liquid/LavaBoiling.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Liquid/WaterBoiling.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeBurstDark.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeDark.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeDarkSoft.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeDarkSoftTrail.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeDarkTrail.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeExplosionDark.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Liquid/AcidBoiling.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Liquid/LavaBoiling.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/Liquid/WaterBoiling.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/StinkyCloud.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/StinkyCloudTrail.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeBurstWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeExplosionWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeWhiteSoft.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeWhiteSoftTrail.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeWhiteTrail.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Smoke/\u4F0F\u9F99\u5C71\u7D2B\u8272\u70DF\u96FE.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Sparks/SparkExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Sparks/SparkExplosionYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Sparks/SparkLoopBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Sparks/SparkLoopYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Sparks/SparkRadialExplosionBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Sparks/SparkRadialExplosionYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFieldSimple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFogFlow/StarFogFlowBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFogFlow/StarFogFlowGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFogFlow/StarFogFlowRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarFogFlow/StarFogFlowYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Stars/StarVortex.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Underwater/BubbleBlastUnderwater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Underwater/BubbleStreamUnderwater.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Flowing/WaterDripping.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Flowing/WaterDrippingHeavy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Flowing/WaterFall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Flowing/WaterFallBig.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Flowing/WaterGeysir.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Other/WaterRainRipples.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Other/WaterRipple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Other/WaterSurfaceSplash.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Water/Other/WaterSurfaceSplashSmall.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/BlowingLeaves.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Rain/RainHard.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Rain/RainLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Rain/RainMedium.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Rain/RainTransparent.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowHard.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowLight.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowMedium.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowSpinny.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Environment/Weather/Whirlwind.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiAngry.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiCool.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiCry.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiDisappointed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiDrool.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiHappy.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiKiss.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiSad.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiShocked.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiSick.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiSilly.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Emojis/EmojiSmile.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Flares/FlareBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Flares/FlareGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Flares/FlarePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Flares/FlareRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Flares/FlareYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ChestAppear/ChestAppearBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ChestAppear/ChestAppearPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ChestAppear/ChestAppearWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ChestAppear/ChestAppearYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb/GlowOrbBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb/GlowOrbGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb/GlowOrbPink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb/GlowOrbYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle/ItemSparkleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle/ItemSparkleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle/ItemSparklePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle/ItemSparkleYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/TreasureChestGlowRays.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Loot/TreasureVerticalGlowRays.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGold.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SpinPortal/SpinPortalBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SpinPortal/SpinPortalGold.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SpinPortal/SpinPortalPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Portals/SpinPortal/SpinPortalRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/PowerOrbBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/PowerOrbGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/PowerOrbPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/PowerOrbRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/PowerOrbYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrbSmall/PowerOrbSmallBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrbSmall/PowerOrbSmallGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrbSmall/PowerOrbSmallPurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrbSmall/PowerOrbSmallRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrbSmall/PowerOrbSmallYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow1.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow2.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow3.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow4.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow5.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow6.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/\u6CBB\u6108-\u53D1\u5149PowerupGlow/PowerupGlow1.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/\u6CBB\u6108-\u53D1\u5149PowerupGlow/PowerupGlow2.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/\u6CBB\u6108-\u53D1\u5149PowerupGlow/PowerupGlow3.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/\u6CBB\u6108-\u53D1\u5149PowerupGlow/PowerupGlow4.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/\u6CBB\u6108-\u53D1\u5149PowerupGlow/PowerupGlow5.prefab"
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Powerups/\u6CBB\u6108-\u53D1\u5149PowerupGlow/PowerupGlow6.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Sparkle/TinySparkle.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZonePurple.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneRed.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneWhite.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/MagicZone/MagicZoneBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/MagicZone/MagicZoneGreen.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/MagicZone/MagicZonePink.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/MagicZone/MagicZoneYellow.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/SpinZone/SpinZoneBlue.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Interactive/Zone/SpinZone/SpinZoneOrange.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Misc/CurvySmoke.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Misc/HeartPoof.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Misc/Music.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Misc/MusicalNotes.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Misc/speak-box.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs/Misc/TypingMessage.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodDripping2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodShowerLoop2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Red/BloodDripping2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Red/BloodExplosion2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatCritical2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodDripping2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodExplosion2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodShowerLoop2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatCritical2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatDirectional2D.prefab
+  - "Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Blood/\u7EA2\u8272\u8840.prefab"
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Explosions/MetalHit2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Explosions/SparkExplosion2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Explosions/StarBurst2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterDripping2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterDrippingHeavy2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFall2D.prefab
+  - Assets/MFramework/Script/Test/Epic Toon FX/Prefabs 2D/Weather/Rain2D.prefab
+  scanFolders:
+  - Assets
