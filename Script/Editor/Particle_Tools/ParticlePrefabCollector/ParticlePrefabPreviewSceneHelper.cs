@@ -559,7 +559,7 @@ namespace Game.Editor.ParticlePrefabCollector
             if (VerticalLayout)
             {
                 groundPosition = new Vector3(basePosition.x, basePosition.y, 0f);
-                labelOffset = Vector3.forward * 0.25f * _previewSpacing + Vector3.up * 0.25f;
+                labelOffset = Vector3.forward * 0.25f * _previewSpacing + Vector3.up * -.4f * _previewSpacing;
             }
             else
             {
@@ -570,7 +570,7 @@ namespace Game.Editor.ParticlePrefabCollector
             var labelPosition = groundPosition + labelOffset;
 
             Handles.color = new Color(1f, 1f, 1f, 0.35f);
-            Handles.DrawLine(groundPosition, labelPosition);
+            //Handles.DrawLine(groundPosition, labelPosition);
             Handles.Label(labelPosition, go.name, GetLabelStyle());
         }
 
@@ -610,7 +610,7 @@ namespace Game.Editor.ParticlePrefabCollector
                 hideFlags = HideFlags.HideAndDontSave,
                 name = "ParticlePreviewLabelBg"
             };
-            var color = EditorGUIUtility.isProSkin ? new Color(0f, 0f, 0f, 0.6f) : new Color(1f, 1f, 1f, 0.7f);
+            var color = EditorGUIUtility.isProSkin ? new Color(0f, 0f, 0f, 0.6f) : new Color(1f, 1f, 1f, 0.3f);
             tex.SetPixel(0, 0, color);
             tex.Apply();
             _labelBackgroundTexture = tex;
