@@ -59,7 +59,7 @@ namespace Game.Editor.ParticlePrefabCollector
         private bool _previewSelectPartial;
         private SceneAsset _lastSceneAsset;
 
-        [MenuItem("Assets/Shiki_Tools/Particle/粒子预览工具", false, 2)]
+        [MenuItem(EditorSettings.MENU_ITEM_ParticlePrefabCollector, false, EditorSettings.MENU_SORT_ParticlePrefabCollector)]
         public static void Open()
         {
             var w = GetWindow<ParticlePrefabCollectorWindow>("Particle Prefab Collector");
@@ -67,8 +67,7 @@ namespace Game.Editor.ParticlePrefabCollector
             w.Focus();
         }
 
-        private const string ScanResultAssetPath =
-            "Assets/MFramework/Script/Editor/Particle_Tools/ParticlePrefabCollector/ParticlePrefabScanResult.asset";
+        private const string ScanResultAssetPath = EditorSettings.ScanResultAssetPath;
 
         private ParticlePrefabScanResult _scanResultSo;
         private string _scanTimeStr = "";

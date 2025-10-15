@@ -6,13 +6,13 @@ using UnityEngine;
 
 public class SFX_TexLevels : EditorWindow
 {
-	[MenuItem("Assets/Shiki_Tools/Texture/调整色阶", true)]
+	[MenuItem(EditorSettings.MENU_ITEM_Levels, true)]
 	private static bool LevelsValid()
 	{
 		return Selection.objects.Length == 1 && Selection.objects[0] as Texture2D;
 	}
 
-	[MenuItem("Assets/Shiki_Tools/Texture/调整色阶", false, 16)]
+	[MenuItem(EditorSettings.MENU_ITEM_Levels, false, EditorSettings.MENU_SORT_Levels)]
 	private static void Levels()
 	{
 		SFX_TexLevels window = EditorWindow.GetWindow<SFX_TexLevels>();

@@ -40,12 +40,12 @@ public class SFX_TexMerge : EditorWindow
     public float[] gaodus;
     private bool error = false;
 
-    [MenuItem("Assets/Shiki_Tools/Texture/贴图合并工具", true)]
-    static bool RampCreateWindowValid()
+    [MenuItem(EditorSettings.MENU_ITEM_TexMergeCreate, true)]
+    static bool TexMergeCreateWindowValid()
     {
         return true;
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/贴图合并工具", false, 101)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexMergeCreate, false, EditorSettings.MENU_SORT_TexMergeCreate)]
     static void TexMergeCreateWindow()
     {
         SFX_TexMerge window = EditorWindow.GetWindow<SFX_TexMerge>();

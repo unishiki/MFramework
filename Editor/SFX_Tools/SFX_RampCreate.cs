@@ -19,7 +19,7 @@ public class SFX_RampCreate : EditorWindow
     public float[] gaodus;
     private bool error = false;
 
-    [MenuItem("Assets/Shiki_Tools/Texture/渐变图生成工具", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_RampCreate, true)]
     static bool RampCreateWindowValid()
     {
 #if !UNITY_2018_3_OR_NEWER
@@ -27,7 +27,7 @@ public class SFX_RampCreate : EditorWindow
 #endif
         return true;
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/渐变图生成工具", false, 100)]
+    [MenuItem(EditorSettings.MENU_ITEM_RampCreate, false, EditorSettings.MENU_SORT_RampCreate)]
     static void RampCreateWindow()
     {
         SFX_RampCreate window = EditorWindow.GetWindow<SFX_RampCreate>();

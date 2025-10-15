@@ -11,7 +11,7 @@ public class SFX_TexturePackerImport : MonoBehaviour
 	public static class TexturePackerImport
 	{
 
-		[MenuItem("Assets/Shiki_Tools/Texture/图集拆分", false, 201)]
+		[MenuItem(EditorSettings.MENU_ITEM_AtlasProcessToSprite, false, EditorSettings.MENU_SORT_AtlasProcessToSprite)]
 		static void ProcessToSprite()
 		{
 			TextAsset txt = (TextAsset)Selection.activeObject;
@@ -39,7 +39,7 @@ public class SFX_TexturePackerImport : MonoBehaviour
 		}
 	}
 
-	[MenuItem("Assets/Shiki_Tools/Texture/图集拆分", true)]
+	[MenuItem(EditorSettings.MENU_ITEM_AtlasProcessToSprite, true)]
 	static bool ValidateProcessTexturePacker()
 	{
 		Object o = Selection.activeObject;

@@ -20,7 +20,7 @@ public class SFX_TexturePackerCreate : EditorWindow
     public string path_out = "请选择输出文件夹";
     private bool error = false;
 
-    [MenuItem("Assets/Shiki_Tools/Texture/图集打包工具", false, 200)]
+    [MenuItem(EditorSettings.MENU_ITEM_AtlasCreate, false, EditorSettings.MENU_SORT_AtlasCreate)]
     static void AtlasCreateWindow()
     {
         SFX_TexturePackerCreate window = EditorWindow.GetWindow<SFX_TexturePackerCreate>();

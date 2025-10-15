@@ -7,7 +7,7 @@ using System.IO;
 
 public class SFX_Tex2DTools : MonoBehaviour
 {
-    [MenuItem("Assets/Shiki_Tools/Texture/灰度图/RGB求Max", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_Grayscale1, true)]
     private static bool Grayscale1Valid()
     {
         if (Selection.objects.Length < 1)
@@ -21,7 +21,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/灰度图/RGB求Max", false, 6)]
+    [MenuItem(EditorSettings.MENU_ITEM_Grayscale1, false, EditorSettings.MENU_SORT_Grayscale1)]
     static void Grayscale1()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -62,7 +62,7 @@ public class SFX_Tex2DTools : MonoBehaviour
         }
     }
 
-    [MenuItem("Assets/Shiki_Tools/Texture/灰度图/RGB*0.33333", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_Grayscale2, true)]
     private static bool Grayscale2Valid()
     {
         if (Selection.objects.Length < 1)
@@ -76,7 +76,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/灰度图/RGB*0.33333", false, 7)]
+    [MenuItem(EditorSettings.MENU_ITEM_Grayscale2, false, EditorSettings.MENU_SORT_Grayscale2)]
     static void Grayscale2()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -117,7 +117,7 @@ public class SFX_Tex2DTools : MonoBehaviour
         }
     }
 
-    [MenuItem("Assets/Shiki_Tools/Texture/灰度图/灰度公式", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_Grayscale3, true)]
     private static bool Grayscale3Valid()
     {
         if (Selection.objects.Length < 1)
@@ -131,7 +131,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/灰度图/灰度公式", false, 8)]
+    [MenuItem(EditorSettings.MENU_ITEM_Grayscale3, false, EditorSettings.MENU_SORT_Grayscale3)]
     static void Grayscale3()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -175,7 +175,7 @@ public class SFX_Tex2DTools : MonoBehaviour
         }
     }
 
-    [MenuItem("Assets/Shiki_Tools/Texture/一键透明/黑色部分转透明 有色部分转白色", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_DeBlack1, true)]
     private static bool DeBlack1Valid()
     {
         if (Selection.objects.Length < 1)
@@ -189,7 +189,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/一键透明/黑色部分转透明 有色部分转白色", false, 9)]
+    [MenuItem(EditorSettings.MENU_ITEM_DeBlack1, false, EditorSettings.MENU_SORT_DeBlack1)]
     static void DeBlack1()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -231,7 +231,7 @@ public class SFX_Tex2DTools : MonoBehaviour
         }
     }
 
-    [MenuItem("Assets/Shiki_Tools/Texture/一键透明/黑色部分转透明", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_DeBlack2, true)]
     private static bool DeBlack2Valid()
     {
         if (Selection.objects.Length < 1)
@@ -245,7 +245,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/一键透明/黑色部分转透明", false, 10)]
+    [MenuItem(EditorSettings.MENU_ITEM_DeBlack2, false, EditorSettings.MENU_SORT_DeBlack2)]
     static void DeBlack2()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -284,7 +284,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             Save(colorall, size, name1, path1, tex);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/一键透明/白色部分转透明", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_DeBlack3, true)]
     private static bool DeBlack3Valid()
     {
         if (Selection.objects.Length < 1)
@@ -298,7 +298,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/一键透明/白色部分转透明", false, 11)]
+    [MenuItem(EditorSettings.MENU_ITEM_DeBlack3, false, EditorSettings.MENU_SORT_DeBlack3)]
     static void DeBlack3()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -337,7 +337,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             Save(colorall, size, name1, path1, tex);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/RGB", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColor, true)]
     private static bool InvertColorValid()
     {
         if (Selection.objects.Length < 1)
@@ -351,7 +351,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/RGB", false, 12)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColor, false, EditorSettings.MENU_SORT_InvertColor)]
     static void InvertColor()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -388,7 +388,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             Save(colorall, size, name1, path1, tex);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/R", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColorR, true)]
     private static bool InvertColorRValid()
     {
         if (Selection.objects.Length < 1)
@@ -402,7 +402,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/R", false, 13)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColorR, false, EditorSettings.MENU_SORT_InvertColorR)]
     static void InvertColorR()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -437,7 +437,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             Save(colorall, size, name1, path1, tex);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/G", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColorG, true)]
     private static bool InvertColorGValid()
     {
         if (Selection.objects.Length < 1)
@@ -451,7 +451,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/G", false, 14)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColorG, false, EditorSettings.MENU_SORT_InvertColorG)]
     static void InvertColorG()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -486,7 +486,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             Save(colorall, size, name1, path1, tex);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/B", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColorB, true)]
     private static bool InvertColorBValid()
     {
         if (Selection.objects.Length < 1)
@@ -500,7 +500,7 @@ public class SFX_Tex2DTools : MonoBehaviour
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/反相/B", false, 15)]
+    [MenuItem(EditorSettings.MENU_ITEM_InvertColorB, false, EditorSettings.MENU_SORT_InvertColorB)]
     static void InvertColorB()
     {
         for (int k = 0; k < Selection.objects.Length; k++)

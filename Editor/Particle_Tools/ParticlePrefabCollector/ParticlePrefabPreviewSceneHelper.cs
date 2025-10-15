@@ -30,8 +30,7 @@ namespace Game.Editor.ParticlePrefabCollector
         private static ParticlePrefabPreviewConfig _configObj;
         private static bool _saveScheduled;
 
-        private const string ConfigAssetPath =
-            "Assets/MFramework/Script/Editor/Particle_Tools/ParticlePrefabCollector/ParticlePrefabPreviewConfig.asset";
+        private const string ConfigAssetPath = EditorSettings.ConfigAssetPath;
 #if UNITY_2019_1_OR_NEWER
         public static bool ShowBoundaries { get; set; } = true;
         public static bool ShowLabels { get; set; } = true;

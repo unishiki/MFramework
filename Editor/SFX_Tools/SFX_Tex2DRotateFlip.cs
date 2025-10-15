@@ -29,7 +29,7 @@ public class SFX_Tex2DRotateFlip : Editor
         }
         return format;
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/旋转/顺时针90°", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexRotatePlus90, true)]
     private static bool Shun90Valid()
     {
         if (Selection.objects.Length < 1)
@@ -43,7 +43,7 @@ public class SFX_Tex2DRotateFlip : Editor
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/旋转/顺时针90°", false, 1)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexRotatePlus90, false, EditorSettings.MENU_SORT_TexRotatePlus90)]
     static void Shun90()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -87,7 +87,7 @@ public class SFX_Tex2DRotateFlip : Editor
             AssetDatabase.ImportAsset(path1);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/旋转/逆时针90°", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexRotateMinus90, true)]
     private static bool Ni90Valid()
     {
         if (Selection.objects.Length < 1)
@@ -101,7 +101,7 @@ public class SFX_Tex2DRotateFlip : Editor
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/旋转/逆时针90°", false, 2)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexRotateMinus90, false, EditorSettings.MENU_SORT_TexRotateMinus90)]
     static void Ni90()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -145,7 +145,7 @@ public class SFX_Tex2DRotateFlip : Editor
         }
     }
 
-    [MenuItem("Assets/Shiki_Tools/Texture/旋转/180°", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexRotate180, true)]
     private static bool Rot180Valid()
     {
         if (Selection.objects.Length < 1)
@@ -159,7 +159,7 @@ public class SFX_Tex2DRotateFlip : Editor
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/旋转/180°", false, 3)]
+    [MenuItem(EditorSettings.MENU_ITEM_TexRotate180, false, EditorSettings.MENU_SORT_TexRotate180)]
     static void Rot180()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -207,7 +207,7 @@ public class SFX_Tex2DRotateFlip : Editor
             AssetDatabase.ImportAsset(path1);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/翻转/水平翻转", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_FlipHorizontal, true)]
     private static bool FlipHorizontalValid()
     {
         if (Selection.objects.Length < 1)
@@ -221,7 +221,7 @@ public class SFX_Tex2DRotateFlip : Editor
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/翻转/水平翻转", false, 4)]
+    [MenuItem(EditorSettings.MENU_ITEM_FlipHorizontal, false, EditorSettings.MENU_SORT_FlipHorizontal)]
     static void FlipHorizontal()
     {
         for (int k = 0; k < Selection.objects.Length; k++)
@@ -264,7 +264,7 @@ public class SFX_Tex2DRotateFlip : Editor
             AssetDatabase.ImportAsset(path1);
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/翻转/垂直翻转", true)]
+    [MenuItem(EditorSettings.MENU_ITEM_FlipVertical, true)]
     private static bool FlipVerticalValid()
     {
         if (Selection.objects.Length < 1)
@@ -278,7 +278,7 @@ public class SFX_Tex2DRotateFlip : Editor
             return false;
         }
     }
-    [MenuItem("Assets/Shiki_Tools/Texture/翻转/垂直翻转", false, 5)]
+    [MenuItem(EditorSettings.MENU_ITEM_FlipVertical, false, EditorSettings.MENU_SORT_FlipVertical)]
     static void FlipVertical()
     {
         for (int k = 0; k < Selection.objects.Length; k++)

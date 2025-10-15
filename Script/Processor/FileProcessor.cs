@@ -163,6 +163,26 @@ namespace MFramework
 			}
 			return file.FullName.Remove(0, file.FullName.IndexOf("Assets"));
 		}
+
+		/// <summary>
+		/// 根据脚本名字获取脚本的全路径
+		/// </summary>
+		/// <param name="_scriptName"></param>
+		/// <returns></returns>
+		public static string GetScriptPath(System.Type t)
+		{
+			string _scriptName = t.Name;
+			string[] guidArray = UnityEditor.AssetDatabase.FindAssets(_scriptName);
+			foreach (string guid in guidArray)
+			{
+				string scriptFullPath = AssetDatabase.GUIDToAssetPath(guid);
+				if (scriptFullPath.EndsWith(_scriptName + ".cs"))
+				{
+					return scriptFullPath;
+				}
+			}
+			return string.Empty;
+		}
 	}
 }
 

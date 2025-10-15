@@ -19,8 +19,7 @@ namespace Game.Editor.ParticlePrefabCollector
         [Header("布局设置")] public bool verticalLayout; // false: XZ 平面；true: XY 平面
 
 #if UNITY_EDITOR
-        private const string DefaultAssetPath =
-            "Assets/MFramework/Script/Editor/Particle_Tools/ParticlePrefabCollector/ParticlePrefabPreviewConfig.asset";
+        private const string DefaultAssetPath = EditorSettings.ConfigAssetPath;
 
         public static ParticlePrefabPreviewConfig LoadOrCreate()
         {
